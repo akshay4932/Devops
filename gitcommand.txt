@@ -1,0 +1,19 @@
+git init -- initialize a repo
+git add -A -- adds everything(new/modified) to staging
+git add <filename> adds single file to staging
+git add . --adds everything(new/modified) to staging
+
+git commit -m "message" -- commit staged changes
+git commit -am "message" -- commit from modified area without staging
+
+git log -- get commit history on the branch
+git log --oneline --graph --decorate -- to see branch history as a graph
+
+git diff head~1..head --diff between last two commits
+git diff commitid..commitid --diff between any two commits
+
+git branch <branchname> <source> --creates branch
+git checkout <branchname> -- checkout branch
+git checkout -b <branchname> <source> -- create branch and checkout
+git branch -d <branchname> --deletes a branch if there is no pending merges
+git branch -D <branchname> --deletes a branch even if there is pending merges
