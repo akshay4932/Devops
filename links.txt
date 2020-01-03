@@ -1,0 +1,5 @@
+terraform templates: https://www.terraform.io/docs/providers/azurerm/index.html
+
+jenkins .NET: https://dzone.com/articles/cicd-in-aspnet-mvc-using-jenkins
+
+Azure Kubernetes : https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app
