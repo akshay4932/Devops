@@ -1,0 +1,13 @@
+docker --version
+
+docker build -t <imagename> .
+
+docker run -d -p 80:8080 <imagename> <containername>
+
+docker ps (list all runnning containers)
+
+docker ps -a (list all containers)
+
+docker ls(list all images)
+
+docker push (pushing image to repository)
