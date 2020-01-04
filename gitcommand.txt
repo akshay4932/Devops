@@ -17,3 +17,18 @@ git checkout <branchname> -- checkout branch
 git checkout -b <branchname> <source> -- create branch and checkout
 git branch -d <branchname> --deletes a branch if there is no pending merges
 git branch -D <branchname> --deletes a branch even if there is pending merges
+git branch --all
+
+git remote add origin <url of github repo>
+git push -u origin master -- sets upstream for master and pushes master to remote
+git push -- subsequent pushes from branch
+
+git push -u origin <branchname> -- sets upstream for branch and pushes branch to remote
+
+git fetch/git merge or git pull -- get changes from remote
+
+git branch -d <branch name> --deletes a branch if it has no pending merges
+
+git branch -D <branch name> --deletes a branch even if it has pending merges
+
+git push origin :<branchname> --deletes remote branch
